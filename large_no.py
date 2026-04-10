@@ -43,3 +43,9 @@ def large_no(a,b,c):
 x,y,z=large_no(1,5,30)
 print(f'Largest = {x}, Smallest = {y}, middle = {z}')
 
+# python program to find smallest, largest and middle number using sorted function for 5 numbers
+def large_no(a,b,c,d,e):
+    nums=sorted([a,b,c,d,e])
+    return nums[4],nums[0],nums[2]
+x,y,z=large_no(1,9,3,7,5)
+print(f'Largest = {x}, Smallest = {y}, Middle = {z}')
