@@ -16,3 +16,60 @@ print(profile2)
 # Output:
 # {'name': 'Sam', 'age': 25, 'city': 'Unknown', 'country': 'USA'}
 # {'name': 'Ram', 'age': 25, 'city': 'Delhi', 'country': 'India'}
+
+# The pretty print version of the above program
+def create_profile(name, age, city="Unknown", country="USA"):
+    profile = {
+        "name": name,
+        "age": age,
+        "city": city,
+        "country": country
+    }
+    return profile
+
+def display_profile(profile):
+    """Nicely format and display the profile"""
+    print("\n" + "="*40)
+    print(f"📋 PROFILE: {profile['name']}")
+    print("="*40)
+    print(f"🎂 Age:     {profile['age']}")
+    print(f"🌆 City:    {profile['city']}")
+    print(f"🌍 Country: {profile['country']}")
+    print("="*40)
+
+# Create and display profiles
+p1 = create_profile("Alice Wonder", 28, "Paris", "France")
+p2 = create_profile("Bob Builder", 35)  # Uses defaults
+p3 = create_profile("Charlie Brown", 9, city="Denver")
+
+display_profile(p1)
+display_profile(p2)
+display_profile(p3)
+
+#output:
+
+# ========================================
+# 📋 PROFILE: Alice Wonder
+# ========================================
+# 🎂 Age:     28
+# 🌆 City:    Paris
+# 🌍 Country: France
+# ========================================
+
+# ========================================
+# 📋 PROFILE: Bob Builder
+# ========================================
+# 🎂 Age:     35
+# 🌆 City:    Unknown
+# 🌍 Country: USA
+# ========================================
+
+# ========================================
+# 📋 PROFILE: Charlie Brown
+# ========================================
+# 🎂 Age:     9
+# 🌆 City:    Denver
+# 🌍 Country: USA
+# ========================================
+
+
