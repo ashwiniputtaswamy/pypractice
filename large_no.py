@@ -33,3 +33,4 @@ def large_no(a,b,c):
 
 x,y,z=large_no(345,543,30)
 print(f'Largest = {x}, Smallest = {y}, middle = {z}')
+# output: Largest = 543, Smallest = 30, middle = 345
