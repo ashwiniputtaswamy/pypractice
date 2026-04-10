@@ -34,3 +34,12 @@ def large_no(a,b,c):
 x,y,z=large_no(345,543,30)
 print(f'Largest = {x}, Smallest = {y}, middle = {z}')
 # output: Largest = 543, Smallest = 30, middle = 345
+
+# finding smallest, largest and the middle number using sort function
+def large_no(a,b,c):
+    nums=sorted([a,b,c])
+    return nums[2], nums[0], nums[1]
+
+x,y,z=large_no(1,5,30)
+print(f'Largest = {x}, Smallest = {y}, middle = {z}')
+
