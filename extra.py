@@ -89,3 +89,18 @@ def even_sum(numbers):
     return total
 
 print(even_sum([1,2,3,4,5,6,7,8]))
+
+
+# python program to find both sum of even and odd numbers in a list of numbers using function
+def even_odd_sum(numbers):
+    even_total = 0
+    odd_total = 0
+    for i in numbers:
+        if i % 2 == 0:
+            even_total += i
+        else:
+            odd_total += i
+    return even_total, odd_total
+    
+x,y = even_odd_sum([1,2,3,4])
+print(f"Even = {x}, Odd = {y}")
