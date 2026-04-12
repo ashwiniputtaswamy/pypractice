@@ -49,3 +49,17 @@ def large_no(a,b,c,d,e):
     return nums[4],nums[0],nums[2]
 x,y,z=large_no(1,9,3,7,5)
 print(f'Largest = {x}, Smallest = {y}, Middle = {z}')
+
+
+# python program to find second largest number in the list without using sorted function
+def sec_large(numbers):
+    largest = float('-inf')
+    second = float('-inf')
+    for num in numbers:
+        if num > largest:
+            second = largest
+            largest = num
+        elif num > second and num != largest:
+            second = num
+    return second
+print(sec_large([1,5,3,9,7]))
