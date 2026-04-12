@@ -72,4 +72,20 @@ display_profile(p3)
 # 🌍 Country: USA
 # ========================================
 
+# python program to calculate sum of even numbers in a list of numbers(without using a function)
+a=[1,2,3,4,5,6,7,8]
+even_total=0
+for i in a:
+    if i%2==0:
+        even_total += i
+print(even_total)
 
+# python program to calculate sum of even numbers in a list of numbers(with using a function)
+def even_sum(numbers):
+    total = 0
+    for i in numbers:
+        if i%2==0:
+            total += i
+    return total
+
+print(even_sum([1,2,3,4,5,6,7,8]))
