@@ -16,3 +16,12 @@ def rev_string(text):
         rev = char + rev
     return rev
 print(f'the reverse of the string is "{rev_string("apple")}"')
+
+
+# Optimized Version (Advanced) of previous one
+def rev_string(text):
+    rev = []
+    for char in text:
+        rev.insert(0,char)
+    return "".join(rev)
+print(rev_string("apple"))
