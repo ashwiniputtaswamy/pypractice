@@ -112,3 +112,5 @@ count = {}
 for char in text:
     count[char]=count.get(char,0)
 print(count)
+
+Output: {'b': 1, 'a': 3, 'n': 2}
