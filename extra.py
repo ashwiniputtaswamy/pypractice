@@ -114,3 +114,17 @@ for char in text:
 print(count)
 
 Output: {'b': 1, 'a': 3, 'n': 2}
+---------------------------------------------------------------------------------------------------------------------------
+# python program to count frequency of characters using dictionary and printing in sorted form
+text = "banana"
+count = {}
+for char in text:
+    count[char]=count.get(char,0)+1
+for key,value in sorted(count.items()):
+    print(f"{key} -> {value}")
+
+Output:
+a -> 3
+b -> 1
+n -> 2
+
