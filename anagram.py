@@ -1,12 +1,8 @@
 🧠 What is an Anagram?
-
 Two strings are anagrams if:
-
 They contain the same characters
 In different order
-
 👉 Example:
-
 "listen" and "silent" ✅
 "hello" and "world" ❌
 -------------------------------------------------------------------------------------------------
