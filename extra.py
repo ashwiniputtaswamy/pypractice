@@ -71,7 +71,7 @@ display_profile(p3)
 # 🌆 City:    Denver
 # 🌍 Country: USA
 # ========================================
-
+---------------------------------------------------------------------------------------------------------------------------------
 # python program to calculate sum of even numbers in a list of numbers(without using a function)
 a=[1,2,3,4,5,6,7,8]
 even_total=0
@@ -79,7 +79,7 @@ for i in a:
     if i%2==0:
         even_total += i
 print(even_total)
-
+-----------------------------------------------------------------------------------------------------------------------
 # python program to calculate sum of even numbers in a list of numbers(with using a function)
 def even_sum(numbers):
     total = 0
@@ -89,7 +89,7 @@ def even_sum(numbers):
     return total
 
 print(even_sum([1,2,3,4,5,6,7,8]))
-
+----------------------------------------------------------------------------------------------------------------------------
 
 # python program to find both sum of even and odd numbers in a list of numbers using function
 def even_odd_sum(numbers):
@@ -104,3 +104,11 @@ def even_odd_sum(numbers):
     
 x,y = even_odd_sum([1,2,3,4])
 print(f"Even = {x}, Odd = {y}")
+--------------------------------------------------------------------------------------------------------------------------
+
+# python program to count frequency of characters using dictionary
+text = "banana"
+count = {}
+for char in text:
+    count[char]=count.get(char,0)
+print(count)
