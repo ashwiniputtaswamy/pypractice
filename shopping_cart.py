@@ -23,3 +23,11 @@ print()
 print(f"the total is ${total}")
 
 Output:
+Enter a food to buy (q to quit): pizza
+Enter the price of a pizza: $1.99
+Enter a food to buy (q to quit): steak
+Enter the price of a steak: $5.00
+Enter a food to buy (q to quit): q
+-----YOUR CART-----
+pizza steak
+the total is $6.99
