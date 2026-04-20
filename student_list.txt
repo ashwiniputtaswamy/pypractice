@@ -1,0 +1,3 @@
+sam:90 marks
+max:80 marks
+jack:95 marks
