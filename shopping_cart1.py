@@ -19,3 +19,12 @@ for key, value in cart.items():
 for price in cart.values():
     total += price
 print(f'The total is \u20B9{total}')
+
+Output:
+Enter the price of the veg thali: ₹300
+Enter the food to buy (press q to exit): q
+-----YOUR CART-----
+biriyani --> ₹310.0
+kebab --> ₹250.0
+veg thali --> ₹300.0
+The total is ₹860.0
