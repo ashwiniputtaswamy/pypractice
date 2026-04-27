@@ -21,3 +21,13 @@ print(sq_even_no)
 
 # Output: [4, 64]
 -----------------------------------------------------------------------------------------------------------------------------------------------------
+# Question 3: Input list: data = [10,25,5,30,15,20]. Use list comprehension to create a new list with only numbers greater than 15 multiplied by 2.
+# Expected Output: [50,60,40]
+
+data = [10,25,5,30,15,20]
+
+filtered_doubled = [x * 2 for x in data if x > 15]
+print(filtered_doubled)
+
+# Output: [50, 60, 40]
+------------------------------------------------------------------------------------------------------------------------------------------------------
