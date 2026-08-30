@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-# program 1: Printing 1 to 5 using while loop
+# program 1: Printing Hello 6 times using while loop
 count = 0 
 while count <= 5:
   print("Hello")
